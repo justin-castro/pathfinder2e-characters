@@ -1,0 +1,615 @@
+[
+  {
+    "id": 1,
+    "name": "Clamdor",
+    "class": "Cleric",
+    "level": 5,
+    "ancestry": "Gnome",
+    "heritage": "Wellspring Gnome",
+    "background": "Scholar (Religion)",
+    "alignment": "LG",
+    "gender": "Male",
+    "age": "37",
+    "deity": "Sarenrae",
+    "size": 1,
+    "keyability": "wis",
+    "languages": [
+      "Common",
+      "Dwarven",
+      "Elven",
+      "Gnomish",
+      "Halfling",
+      "Sylvan"
+    ],
+    "attributes": {
+      "ancestryhp": 8,
+      "classhp": 8,
+      "bonushp": 0,
+      "bonushpPerLevel": 0,
+      "speed": 25,
+      "speedBonus": 0
+    },
+    "abilities": {
+      "str": 8,
+      "dex": 16,
+      "con": 16,
+      "int": 10,
+      "wis": 19,
+      "cha": 16
+    },
+    "proficiencies": {
+      "classDC": 2,
+      "perception": 4,
+      "fortitude": 4,
+      "reflex": 2,
+      "will": 4,
+      "heavy": 0,
+      "medium": 0,
+      "light": 0,
+      "unarmored": 2,
+      "advanced": 0,
+      "martial": 0,
+      "simple": 2,
+      "unarmed": 2,
+      "castingArcane": 0,
+      "castingDivine": 2,
+      "castingOccult": 0,
+      "castingPrimal": 0,
+      "acrobatics": 0,
+      "arcana": 0,
+      "athletics": 0,
+      "crafting": 0,
+      "deception": 0,
+      "diplomacy": 2,
+      "intimidation": 0,
+      "medicine": 4,
+      "nature": 2,
+      "occultism": 0,
+      "performance": 0,
+      "religion": 4,
+      "society": 0,
+      "stealth": 0,
+      "survival": 2,
+      "thievery": 0
+    },
+    "feats": [
+      [
+        "Assurance",
+        "Religion"
+      ],
+      [
+        "Domain Initiate",
+        null
+      ],
+      [
+        "Wellspring Gnome",
+        null,
+        "Heritage",
+        1
+      ],
+      [
+        "Gnome Polyglot",
+        null,
+        "Ancestry Feat",
+        1
+      ],
+      [
+        "Healing Hands",
+        null,
+        "Class Feat",
+        2
+      ],
+      [
+        "Medical Researcher",
+        null,
+        "Skill Feat",
+        2
+      ],
+      [
+        "Battle Medicine",
+        null,
+        "General Feat",
+        3
+      ],
+      [
+        "Directed Channel",
+        null,
+        "Class Feat",
+        4
+      ],
+      [
+        "Ward Medic",
+        null,
+        "Skill Feat",
+        4
+      ],
+      [
+        "Energized Font",
+        null,
+        "Ancestry Feat",
+        5
+      ]
+    ],
+    "specials": [
+      "Divine Spellcasting",
+      "Deity",
+      "Healing Font",
+      "Cloistered Cleric",
+      "Domain: Healing",
+      "Low-Light Vision",
+      "Anathema",
+      "Divine",
+      "Second Doctrine",
+      "Alertness",
+      "Wellspring Gnome"
+    ],
+    "lores": [
+      [
+        "Academia",
+        2
+      ]
+    ],
+    "equipment": [],
+    "specificProficiencies": {
+      "trained": [
+        "Scimitar"
+      ],
+      "expert": [],
+      "master": [],
+      "legendary": []
+    },
+    "weapons": [
+      {
+        "name": "Scimitar",
+        "qty": 1,
+        "prof": "martial",
+        "die": "d6",
+        "pot": 0,
+        "str": "",
+        "mat": null,
+        "display": "Scimitar",
+        "runes": []
+      }
+    ],
+    "money": {
+      "pp": 0,
+      "gp": 15,
+      "sp": 0,
+      "cp": 0
+    },
+    "armor": [
+      {
+        "name": "Steel Shield",
+        "qty": 1,
+        "prof": "shield",
+        "pot": 0,
+        "res": 0,
+        "worn": true,
+        "runes": []
+      }
+    ],
+    "spellCasters": [
+      {
+        "name": "Cleric Font",
+        "magicTradition": "divine",
+        "spellcastingType": "prepared",
+        "ability": "wis",
+        "proficiency": 2,
+        "focusPoints": 0,
+        "spells": [
+          {
+            "spellLevel": 0,
+            "list": []
+          },
+          {
+            "spellLevel": 1,
+            "list": []
+          },
+          {
+            "spellLevel": 2,
+            "list": []
+          },
+          {
+            "spellLevel": 3,
+            "list": [
+              "Heal",
+              "Heal",
+              "Heal",
+              "Heal"
+            ]
+          }
+        ],
+        "perDay": [
+          0,
+          0,
+          0,
+          4,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "Wellspring Gnome",
+        "magicTradition": "divine",
+        "spellcastingType": "prepared",
+        "ability": "cha",
+        "proficiency": 2,
+        "focusPoints": 0,
+        "spells": [
+          {
+            "spellLevel": 0,
+            "list": []
+          }
+        ],
+        "perDay": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "Cleric",
+        "magicTradition": "divine",
+        "spellcastingType": "prepared",
+        "ability": "wis",
+        "proficiency": 2,
+        "focusPoints": 0,
+        "spells": [
+          {
+            "spellLevel": 0,
+            "list": [
+              "Stabilize",
+              "Shield",
+              "Detect Magic",
+              "Divine Lance",
+              "Daze"
+            ]
+          },
+          {
+            "spellLevel": 1,
+            "list": [
+              "Bless",
+              "Fear",
+              "Sanctuary"
+            ]
+          },
+          {
+            "spellLevel": 2,
+            "list": [
+              "Dancing Shield",
+              "Spiritual Weapon",
+              "Blazing Blade"
+            ]
+          },
+          {
+            "spellLevel": 3,
+            "list": [
+              "Heroism",
+              "Searing Light"
+            ]
+          }
+        ],
+        "perDay": [
+          5,
+          3,
+          3,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "Focus Spells",
+        "magicTradition": "focus",
+        "spellcastingType": "",
+        "ability": "wis",
+        "proficiency": 2,
+        "focusPoints": 1,
+        "spells": [
+          {
+            "spellLevel": 1,
+            "list": [
+              "Healer's Blessing"
+            ]
+          }
+        ],
+        "perDay": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    ],
+    "formula": [],
+    "pets": [],
+    "acTotal": {
+      "acProfBonus": 7,
+      "acAbilityBonus": 3,
+      "acItemBonus": 0,
+      "acTotal": 20,
+      "shieldBonus": "2"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Obra Shadowshot",
+    "class": "Monk",
+    "level": 6,
+    "ancestry": "Human",
+    "heritage": "Versatile Heritage",
+    "background": "Hounded Thief",
+    "alignment": "CN",
+    "gender": "Male",
+    "age": "Not set",
+    "deity": "Not set",
+    "size": 2,
+    "keyability": "wis",
+    "languages": [
+      "Common"
+    ],
+    "attributes": {
+      "ancestryhp": 8,
+      "classhp": 10,
+      "bonushp": 0,
+      "bonushpPerLevel": 1,
+      "speed": 25,
+      "speedBonus": 10
+    },
+    "abilities": {
+      "str": 16,
+      "dex": 16,
+      "con": 16,
+      "int": 10,
+      "wis": 18,
+      "cha": 10
+    },
+    "proficiencies": {
+      "classDC": 2,
+      "perception": 4,
+      "fortitude": 4,
+      "reflex": 4,
+      "will": 4,
+      "heavy": 0,
+      "medium": 0,
+      "light": 0,
+      "unarmored": 4,
+      "advanced": 0,
+      "martial": 0,
+      "simple": 4,
+      "unarmed": 4,
+      "castingArcane": 0,
+      "castingDivine": 0,
+      "castingOccult": 2,
+      "castingPrimal": 0,
+      "acrobatics": 2,
+      "arcana": 0,
+      "athletics": 4,
+      "crafting": 0,
+      "deception": 0,
+      "diplomacy": 0,
+      "intimidation": 2,
+      "medicine": 2,
+      "nature": 2,
+      "occultism": 0,
+      "performance": 0,
+      "religion": 0,
+      "society": 0,
+      "stealth": 2,
+      "survival": 0,
+      "thievery": 4
+    },
+    "feats": [
+      [
+        "Pickpocket",
+        null
+      ],
+      [
+        "Versatile Heritage",
+        null,
+        "Heritage",
+        1
+      ],
+      [
+        "Toughness",
+        null,
+        "General Feat",
+        1
+      ],
+      [
+        "Natural Skill",
+        null,
+        "Ancestry Feat",
+        1
+      ],
+      [
+        "Monastic Archer Stance",
+        null,
+        "Class Feat",
+        1
+      ],
+      [
+        "Experienced Smuggler",
+        null,
+        "Skill Feat",
+        2
+      ],
+      [
+        "Stunning Fist",
+        null,
+        "Class Feat",
+        2
+      ],
+      [
+        "Subtle Theft",
+        null,
+        "General Feat",
+        3
+      ],
+      [
+        "Intimidating Glare",
+        null,
+        "Skill Feat",
+        4
+      ],
+      [
+        "Brawling Focus",
+        null,
+        "Class Feat",
+        4
+      ],
+      [
+        "Natural Ambition",
+        null,
+        "Ancestry Feat",
+        5
+      ],
+      [
+        "Ki Rush",
+        null,
+        "Class Feat",
+        5
+      ],
+      [
+        "Battle Medicine",
+        null,
+        "Skill Feat",
+        6
+      ],
+      [
+        "Wholeness of Body",
+        null,
+        "Class Feat",
+        6
+      ]
+    ],
+    "specials": [
+      "Intimidation",
+      "Stealth",
+      "Flurry of Blows",
+      "Powerful Fist",
+      "Mystic Strikes",
+      "Incredible Movement",
+      "Alertness",
+      "Expert Strikes",
+      "Occult",
+      "Versatile Heritage"
+    ],
+    "lores": [
+      [
+        "Underworld",
+        2
+      ]
+    ],
+    "equipment": [],
+    "specificProficiencies": {
+      "trained": [],
+      "expert": [
+        "Composite Shortbow"
+      ],
+      "master": [],
+      "legendary": []
+    },
+    "weapons": [
+      {
+        "name": "Composite Shortbow",
+        "qty": 1,
+        "prof": "martial",
+        "die": "d6",
+        "pot": 0,
+        "str": "",
+        "mat": null,
+        "display": "Composite Shortbow",
+        "runes": []
+      },
+      {
+        "name": "Special Unarmed (1d6)",
+        "qty": 1,
+        "prof": "unarmed",
+        "die": "d6",
+        "pot": 0,
+        "str": "",
+        "mat": null,
+        "display": "Special Unarmed (1d6)",
+        "runes": []
+      }
+    ],
+    "money": {
+      "pp": 0,
+      "gp": 15,
+      "sp": 0,
+      "cp": 0
+    },
+    "armor": [],
+    "spellCasters": [
+      {
+        "name": "Focus Spells",
+        "magicTradition": "focus",
+        "spellcastingType": "",
+        "ability": "wis",
+        "proficiency": 2,
+        "focusPoints": 2,
+        "spells": [
+          {
+            "spellLevel": 1,
+            "list": [
+              "Ki Rush"
+            ]
+          },
+          {
+            "spellLevel": 2,
+            "list": [
+              "Wholeness of Body"
+            ]
+          }
+        ],
+        "perDay": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    ],
+    "formula": [],
+    "pets": [],
+    "acTotal": {
+      "acProfBonus": 10,
+      "acAbilityBonus": 3,
+      "acItemBonus": 0,
+      "acTotal": 23
+    }
+  }
+]

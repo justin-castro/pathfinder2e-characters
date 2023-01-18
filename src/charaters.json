@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "name": "Alchemist",
+        "type": "elf"
+    },
+    {
+        "id": 2,
+        "name": "Barbarian",
+        "type": "human"
+    },
+    {
+        "id": 3,
+        "name": "Bard",
+        "type": "orc"
+    },
+    {
+        "id": 4,
+        "name": "Champion",
+        "type": "Witch"
+    },
+    {
+        "id": 5,
+        "name": "Cleric",
+        "type": "human"
+    },
+    {
+        "id": 6,
+        "name": "Druid",
+        "type": "elf"
+    },
+    {
+        "id": 7,
+        "name": "Gunslinger",
+        "type": "maniac"
+    },
+    {
+        "id": 8,
+        "name": "Inventor",
+        "type": "sage"
+    },
+    {
+        "id": 9,
+        "name": "Investigator",
+        "type": "government"
+    },
+    {
+        "id": 10,
+        "name": "Magus",
+        "type": "witch"
+    }
+]
